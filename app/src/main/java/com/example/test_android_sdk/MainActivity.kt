@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         // Add a button to launch the WebView
         findViewById<Button>(R.id.launchWebView).setOnClickListener {
-            // Launch WebView with default URL (xults.com)
+            // Launch WebView with default URL (https://elaborate-panda-b62f13.netlify.app/)
             WebViewActivity.launch(this)
         }
     }
