@@ -24,5 +24,10 @@ class MainActivity : AppCompatActivity() {
             // Use the default Netlify URL (which should be updated with our latest changes)
             WebViewActivity.launch(this)
         }
+        
+        // Add a button to launch the Test activity
+        findViewById<Button>(R.id.testButton).setOnClickListener {
+            TestActivity.launch(this)
+        }
     }
 }
